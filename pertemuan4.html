@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Form</title>
+</head>
+<body>
+    <h2>Formulir</h2>
+    <hr><br>
+    <form action="">
+        <label for="">Masukan nama anda</label>
+        <input type="text" name="nama" placeholder="isi nama anda" size="30" maxlength="20">
+        <br><br>
+        <label for="">Masukan Password</label>
+        <input type="password" name="pass">
+        <br><br>
+        <label for="">Masukan Email Anda</label>
+        <input type="email" name="email" placeholder="nama@gmail.com">
+        <br><br>
+        <label for="">Masukan warna favorit anda</label>
+        <input type="color" name="warna">
+        <br><br>
+        <label for="">Tanggal Lahir</label>
+        <input type="date" name="tgllahir">
+        <br><br>
+        <label for="">Input nilai</label>
+        <input type="number" name="nilai" min="0" max="10">
+        <br><br>
+        <label for="">Pilih Minggu</label>
+        <input type="week" name="minggu">
+        <br><br>
+        <label for="">Pilih bulan</label>
+        <input type="month" name="januari">
+        <br><br>
+        <label for="">Upload Foto</label>
+        <input type="file" name="foto">
+        <br><br>
+        <label for="">Hobi</label>
+        <input type="checkbox" name="hobi" value="futsal">Futsal
+        <input type="checkbox" name="hobi" value="renang">renang
+        <input type="checkbox" name="hobi" value="basket">basket
+        <input type="checkbox" name="hobi" value="badminton">badminton
+        <br><br>
+        <label for="">Jenis Kelamin</label>
+        <input type="radio" name="jk" value="laki-laki">Laki-Laki
+        <input type="radio" name="jk" value="perempuan">Perempuan
+        <br><br>
+        <label for="">UProdi STTNF</label>
+        <select name="prodi" id="">
+            <option value="">--Pilih Prodi--</option>
+            <option value="si">Sistem Informasi</option>
+            <option value="ti">Teknik Informatika</option>
+            <option value="bd">Bisnis Digital</option>
+        </select>
+        <br><br>
+        <label for="">Komentar</label>
+        <textarea name="komentar" id="" cols="30" rows="5"></textarea>
+        <br><br>
+        
+        <input type="submit" name="proses" value="simpan">
+        <input type="reset" name="unproses" value="batal">
+    </form>
+</body>
+</html>
